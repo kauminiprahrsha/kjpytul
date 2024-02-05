@@ -1,0 +1,422 @@
+.page1{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(237, 192, 132);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.navigatin-bar{
+    border: 2px solid black;
+    height: 10%;
+    width: 30%; 
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(19, 16, 17);
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    left: 0;
+   
+    display: flex;
+
+}
+.part1a{
+    width:50vw;
+    height: 100vh;
+    margin: 0;
+    
+    background-image: url(assets/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.part1b{
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+
+
+}
+.part1ba{
+    width:100% ;
+    height: 75%;
+   
+    align-items: center;
+    margin: 0;
+
+}
+.part1bb{
+    border: 2px solid black;
+    width:20%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    margin-bottom: 40%;
+}
+.page2{
+    margin: 0;
+    padding: 0;
+    background-color: darksalmon;
+    width:100vw;
+    height: 100vh;
+    text-align: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    font-size:larger;
+    line-height: 35px;
+
+}
+
+#but1{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px 5px 2px 2px;
+}
+#but1:hover{
+    background-color: rgb(243, 178, 94);
+}
+.page3{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(242, 121, 145);
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+    min-width: 500px;
+    display: flex;
+
+}
+.page3aa{
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: rgb(242, 121, 145);
+    align-items: center;
+    justify-content: center; 
+    flex-grow: 1 1;
+    border: 2px solid black;
+    display: flex;
+
+}
+.page3a{
+    background-image: url(assets/img1.png);
+    width:50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.page3b{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    border: 2px solid black;
+    margin top: 10%;
+}
+.page5{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(151, 158, 171);
+    display: flex;
+}
+.page5a{
+   width:50vw;
+   height: 100vh;
+   background-image:  url(assets/img2.png);
+   background-position: center; 
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+}
+.page5b{
+   width: 50vw;
+   height: 100vh;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+.page5b1{
+    width: 75%;
+   height: 80%;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: inline-block;
+   margin-top: 10%;
+   
+
+}
+.page6{
+    width: 100vw;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 230, 217);
+    display: flex;
+    flex-direction: row;
+      
+}
+.page6a{
+    width: 33.33%;
+    height:100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.page6b1{
+    background-image: url(assets/img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15%;
+    width: 70%;
+    height: 50%;
+}
+.page6b2{
+    background-image: url(assets/img2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15%;
+    width: 70%;
+    height: 50%;
+}
+.page6b3{
+    background-image: url(assets/img1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 15%;
+    width: 70%;
+    height: 50%;
+}
+.page6c{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 50%;
+    margin-bottom: 15%;
+}
+@media screen and (max-width: 500px) {
+    .page1{
+        margin: 0;
+        padding: 0; 
+        background-color:rgb(237, 192, 132);
+        width: 100vw;
+        height: 150vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .navigatin-bar{
+        border: 2px solid black;
+        height: 10%;
+        width: 30%; 
+        align-items: center;
+        justify-content: space-around;
+        color: rgb(19, 16, 17);
+        font-size: 1.2rem;
+        text-align: center;
+        display: flex;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    
+    
+    }
+    
+    .part1a{
+        width:100vw;
+        height: 60vh;
+        margin: 0;
+        
+        background-image: url(assets/bg1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .part1b{
+        width:100vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid black;
+        position: relative;
+    
+    
+    }
+    .part1ba{
+        width:100% ;
+        height: 100%;
+       
+        align-items: center;
+        margin: 0;
+    
+    }
+    .part1bb{
+        border: 2px solid rgb(12, 12, 12);
+        width:20%;
+        height: 5%;
+        align-items: center;
+        justify-content: center;
+        display: inline-block;
+         margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 40%;
+        margin-bottom: 40%;
+    } 
+    .page2{
+        margin: 0;
+        padding: 0;
+        background-color: darksalmon;
+        width:100vw;
+        height: 100vh;
+        text-align: center;
+        color: black;
+        align-items: center;
+        justify-content: center;
+    }
+.para{
+    font-size:small;
+    line-height: 25px;
+    
+}
+
+    #but1{
+        border: 2px solid black;
+        display: inline-block;
+        padding: 5px 5px 2px 2px;
+    }
+    #but1:hover{
+        background-color: rgb(243, 178, 94);
+    }
+    .page3{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(242, 121, 145);
+        align-items: center;
+        justify-content: center; 
+        margin: 0;
+        padding: 0;
+    }
+    .page5{
+        width: 100vw;
+         height: 200vh;  
+        padding: 0;
+        margin: 0;
+        background-color: rgb(151, 158, 171);
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .page5a{
+       width:100vw;
+       height: 100vh;
+       background-image:  url(assets/img2.png);
+       background-position: center; 
+       background-repeat: no-repeat;
+       background-size: cover;
+      
+    }
+    .page5b{
+       width: 100vw;
+       height: 100vh; 
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+    }
+    .page5b1{
+        width: 100vw;
+        height: 100vh; 
+       text-align: center;
+       align-items: center;
+       justify-content: center;
+       display: inline-block;
+       margin-top: 10%;
+       
+       
+    
+    }
+    .page6{
+         width: 100vw; 
+        /* height:100vh ; */
+        margin: 0;
+        padding: 0;
+        background-color: rgb(241, 230, 217);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+          
+    }
+    .page6a{
+        width: 100vw;
+        height:100vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(241, 230, 217);
+
+    }
+    .page6b1{
+        background-image: url(assets/img1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 15%;
+        width: 70%;
+        height: 50%;
+    }
+    .page6b2{
+        background-image: url(assets/img2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 15%;
+        width: 70%;
+        height: 50%;
+    }
+    .page6b3{
+        background-image: url(assets/img1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 15%;
+        width: 70%;
+        height: 50%;
+    }
+    .page6c{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 50%;
+        margin-bottom: 15%;
+    }
+
+}
+
